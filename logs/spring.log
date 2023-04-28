@@ -59,3 +59,36 @@
 2023-04-28 20:12:00.422  INFO 16880 --- [RMI TCP Connection(9)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2023-04-28 20:12:00.424  INFO 16880 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2023-04-28 20:12:00.436  INFO 16880 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-28 21:46:17.576  INFO 26988 --- [main] c.p.e.EmployeedataApplication            : Starting EmployeedataApplication using Java 17.0.6 on LAPTOP-59UL2VS7 with PID 26988 (C:\spring\employeedata\bin\main started by Bawankar in C:\spring\employeedata)
+2023-04-28 21:46:17.579  INFO 26988 --- [main] c.p.e.EmployeedataApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-04-28 21:46:18.244  INFO 26988 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-28 21:46:18.298  INFO 26988 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interfaces.
+2023-04-28 21:46:18.552  INFO 26988 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$19a9b5b5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-28 21:46:18.610  INFO 26988 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-04-28 21:46:18.861  INFO 26988 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7001 (https)
+2023-04-28 21:46:18.872  INFO 26988 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-28 21:46:18.872  INFO 26988 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-28 21:46:18.991  INFO 26988 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-28 21:46:18.991  INFO 26988 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1360 ms
+2023-04-28 21:46:19.146  INFO 26988 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-28 21:46:19.207  INFO 26988 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-28 21:46:19.372  INFO 26988 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-28 21:46:19.478  INFO 26988 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-28 21:46:19.778  INFO 26988 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-28 21:46:19.809  INFO 26988 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-28 21:46:20.403  INFO 26988 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-28 21:46:20.412  INFO 26988 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-28 21:46:20.708  WARN 26988 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-28 21:46:21.651  INFO 26988 --- [main] o.a.t.util.net.NioEndpoint.certificate   : Connector [https-jsse-nio-7001], TLS virtual host [_default_], certificate type [UNDEFINED] configured from [file:/C:/spring/employeedata/bin/main/keystore.jks] using alias [mydomain] and with trust store [null]
+2023-04-28 21:46:21.672  INFO 26988 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7001 (https) with context path ''
+2023-04-28 21:46:21.680  INFO 26988 --- [main] c.p.e.EmployeedataApplication            : Started EmployeedataApplication in 4.519 seconds (JVM running for 5.336)
+2023-04-28 21:46:41.454  INFO 26988 --- [https-jsse-nio-7001-exec-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-28 21:46:41.454  INFO 26988 --- [https-jsse-nio-7001-exec-6] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-28 21:46:41.456  INFO 26988 --- [https-jsse-nio-7001-exec-6] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-28 21:46:41.503  INFO 26988 --- [https-jsse-nio-7001-exec-6] c.p.e.controller.EmployeeController      : Getting user by ID: 349 checking..............
+2023-04-28 21:46:47.554  INFO 26988 --- [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-04-28 21:46:47.569  INFO 26988 --- [RMI TCP Connection(6)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-28 21:46:47.569  INFO 26988 --- [RMI TCP Connection(6)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-28 21:46:47.579  INFO 26988 --- [RMI TCP Connection(6)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-28 21:46:47.579  INFO 26988 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-28 21:46:47.589  INFO 26988 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
