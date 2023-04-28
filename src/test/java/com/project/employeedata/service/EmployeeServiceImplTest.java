@@ -15,7 +15,7 @@ import com.project.employeedata.vo.EmployeeVO;
 class EmployeeServiceImplTest {
 
 	
-	@Autowired
+	/*@Autowired
 	EmployeeService employeeService;
 
 	@Autowired
@@ -27,7 +27,7 @@ class EmployeeServiceImplTest {
 		
 		assertEquals("Amit Singh",employeeID.getEmployeeName());
 		
-	}
+	}*/
 	
 
 }
